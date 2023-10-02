@@ -28,6 +28,9 @@ html {
     height: 46px;
     background-color: #000;
 }
+#nav{
+    display: inline-block;
+}
 #nav, .subnav {
  list-style-type:none;
 }
@@ -77,7 +80,24 @@ html {
     padding: 0 12px;
     line-height: 38px;
 }
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
 
+#header .search-btn{
+    float: right;
+    /* kéo sang phải */
+    padding: 0 16px;
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+    color: #ffff;
+    font-size: 20px;
+    line-height: 46px;
+}
 #slider{
 
 }
