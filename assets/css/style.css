@@ -10,6 +10,9 @@ html {
 .clear{
     clear: both;
 }
+.textwhile{
+    color: #ffff !important;
+}
 /*
 ----Quy tắc---- 
 1.Từ trên xuống dưới
@@ -187,7 +190,41 @@ html {
     margin-top: 15px;
     border-radius: 4px;
 }
+/* Tour-section */
+.tour-section{
+    background-color: #000;
+}
+.ticket-list{
+    background-color: #fff;
+    margin-top: 40px;
+    list-style: none;
+}
+.ticket-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.ticket-list .sold-out{
+    background-color: #f44336;
+    padding: 3px 4px;
+    color: #ffff;
+    margin: 0 0 0 16px;
 
+}
+.ticket-list .quantity{
+    /* float: right; */
+    width: 24px;
+    height:24px ;
+    border-radius: 50%;    
+    background-color: #000;
+    text-align: center;
+    line-height: 24px;
+    color: #ffff;
+    margin-top: -3px;
+    /* magin - có foat mới dùng được
+    nó thành block mới đặt with heigh đc*/
+}
 #footer{
 
 }
