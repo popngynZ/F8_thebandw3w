@@ -293,9 +293,11 @@ padding: 11px 16px;
     background-color: rgba(0,0 ,0, 0.3);
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: none;
+    /* ẩn hiện tiket */
 }
 .modal.open{
+    /* class ni để tạm js bật nó lên */
     display: flex;
 }
 
@@ -305,6 +307,7 @@ padding: 11px 16px;
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modalFadeIn ease.5s;
 }
 header.modal-header {
     background-color: rgb(0, 150, 136);
@@ -361,5 +364,18 @@ header.modal-header {
 .modal-footer{
     padding:16px;
     text-align: right;
+}
+.modal-footer a{
     color: rgb(33, 150, 243);
+}
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform :translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform : translateY(0);
+    }
 }
