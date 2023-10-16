@@ -7,12 +7,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
-.clear{
-    clear: both;
-}
-.textwhile{
-    color: #ffff !important;
-}
+
 /*
 ----Quy tắc---- 
 1.Từ trên xuống dưới
@@ -26,6 +21,33 @@ html {
 3. Kiểu dáng
 4. Màu sắc
  */
+/* common */
+.clear{
+    clear: both;
+}
+.textwhile{
+    color: #ffff !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+/* thừa hưởng class col và tái sử dụng đc trong tương lai*/
+.col{
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.col-third{
+    width: 33.33333%;
+}
+ /* main */
 #main{
 
 }
@@ -174,14 +196,9 @@ html {
 }
 #content .members-list{
     margin-top: 48px;
-    text-align: center;
     
 }
-#content .member-item{
-    float:left;/* kéo sang trái cha bị co lại ko chứa đc con */
-    /* width: 33.33333%; */
-    width: calc(100%/3);
-}
+
 #content .member-name{
     font-size: 15px;
 }
@@ -230,15 +247,11 @@ html {
 
 /* Place */
 .place-list{
-    margin: 32px -8px 0;   
     padding-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 38px;
 }
 
-.place-item{
-    float: left;
-    width: 33.333%;
-    padding: 0px 8px;
-}
 .place-img{
     width: 100%;
     display: block;
