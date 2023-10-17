@@ -25,12 +25,15 @@ html {
 .clear{
     clear: both;
 }
+
 .textwhile{
     color: #ffff !important;
 }
+
 .text-center{
     text-align: center !important;
 }
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -55,12 +58,32 @@ html {
 .col-third{
     width: 33.33333%;
 }
+
 .mt-8{
     margin-top: 8px !important; 
 }
 .mt-16{
     margin-top: 16px !important; 
 }
+
+.btn{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    border: none;
+    cursor: pointer;
+    }
+    .btn:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+
+.pull-right{
+    float: right !important;
+}
+    
  /* main */
 #main{
 
@@ -183,9 +206,10 @@ html {
 }
 #content .content-section{
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+   
 
 }
 #content .section-heading{
@@ -210,6 +234,7 @@ html {
 }
 #content .members-list{
     margin-top: 48px;
+  
     
 }
 
@@ -261,7 +286,6 @@ html {
 
 /* Place */
 .place-list{
-    padding-bottom: 32px;
     margin-top: 32px;
     margin-bottom: 38px;
 }
@@ -295,17 +319,7 @@ margin: 15px 0;
 line-height: 1.4;
 }
 
-.place-buy-btn{
-display: inline-block;
-background-color: #000;
-color: #fff;
-text-decoration: none;
-padding: 11px 16px;
-}
-.place-buy-btn:hover{
-    background-color: #ccc;
-    color: #000;
-}
+
 
 
 /* contact from */
@@ -331,17 +345,42 @@ padding: 11px 16px;
     width: 100%;
     color: #ccc;
 }
-.contact-form .form-submit-btn{
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #000;
-    padding: 10px 16px;
-    float: right;
-}
-/* footer */
-#footer{
+/* Map section*/
+.map-section img{
+    width: 100%;
 
 }
+
+/* footer */
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+
+}
+
+#footer .socials-list{
+    font-size: 24px;
+}
+
+#footer .socials-list a{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+#footer .coppyright a:hover,
+#footer .socials-list a:hover{
+    color: rgba(0,0,0,0.4);
+}
+
+#footer .coppyright{
+  margin-top: 15px;
+  color: rgba(0,0,0,0.6);
+}
+#footer .coppyright a{
+    color: rgba(0,0,0,0.6);
+  }
+
+/* modal */
 .modal{
     position: fixed;
     top: 0;
