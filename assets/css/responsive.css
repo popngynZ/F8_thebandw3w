@@ -1,0 +1,47 @@
+/* break point */
+        /* pc */
+        @media(min-width:1024px)
+        {
+         
+        }
+       /*table */
+        @media(min-width:740px) and (max-width:1023px)
+        {
+         
+        }
+        /* moblie */
+        @media(max-width:740px) and (max-width:739px)
+        {
+          #nav{
+            display: block;
+          }
+          #nav li a{
+            padding :1px 24px;
+          }
+          #nav .subnav {
+           position: initial;
+           background-color: #333;
+            }
+            #nav .subnav a {
+            color: #fff;
+            padding:5px 41px;
+            }
+            #nav > li {
+                display: block;
+            }
+            #nav >li:first-child{
+                display: inline-block;
+            }
+            #header{
+                overflow: hidden;
+            }
+            #header .moblie-menu-btn{
+                display: block;
+            }
+            #header .search-btn{
+                display: none;
+            }
+        }
+    /*  pc>    >1024px 
+        TABLET >=740&&<1024PX 
+        MOBiLE < 740px*/

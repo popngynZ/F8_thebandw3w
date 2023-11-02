@@ -96,6 +96,7 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
+   
 }
 #nav{
     display: inline-block;
@@ -153,15 +154,30 @@ html {
     font-size: 14px;
 }
 
+#header .moblie-menu-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+#header .moblie-menu-btn,
 #header .search-btn{
     float: right;
     /* kéo sang phải */
     padding: 0 16px;
 }
+#header .moblie-menu-btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+#header .moblie-menu-btn:hover .menu-icon{
+    color: #000;
+}
 #header .search-btn:hover{
     background-color: #f44336;
     cursor: pointer;
 }
+#header .menu-icon,
 #header .search-icon{
     color: #ffff;
     font-size: 20px;
