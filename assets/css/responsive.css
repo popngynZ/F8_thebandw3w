@@ -5,7 +5,7 @@
          
         }
         /* table and moblie */
-        @media (max-width :1023px){
+        @media (max-width :63.9375em){
             .btn{
                 padding: 15px 16px;
         }
@@ -30,12 +30,12 @@
         }
     }
        /*table */
-        @media(min-width:740px) and (max-width:1023px)
+        @media(min-width:46.25em) and (max-width:69.9375em)
         {
          
         }
         /* moblie */
-        @media(max-width:740px) and (max-width:739px)
+        @media(max-width:46.25em) and (max-width:69.9375em)
         {
             .s-full-width,
             .s-col-full{

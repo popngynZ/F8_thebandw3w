@@ -192,7 +192,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     /* chiều cao = 50% chiều ngang của chinh nó */
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 
 }
 #slider .text-content{
@@ -201,7 +201,7 @@ html {
     color: #ffff;
     text-align: center;
     width: 100%;
-
+    text-shadow: 0 0 1px #000;
     /* Cach 2 : Căn giữa */
     /* left: 50%;
     transform: translateX(-50%); */
